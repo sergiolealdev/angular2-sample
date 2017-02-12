@@ -15,7 +15,10 @@ import { TestComponent } from './test/test.component';
 
 import { ReadmeService } from './readme/readme.service';
 import { TodoService } from './todo/todo.service';
-
+import { youTubeServiceInjectables } from './test/youtubeService';
+import { YouTubeSearchComponent } from './test/youtubeService';
+import { SearchBox } from './test/youtubeService';
+import { SearchResultComponent } from './test/youtubeService';
 import { InMemoryTodoService } from './todo/in-memory-todo.service';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 
@@ -28,6 +31,9 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
     InputDialogComponent,
     TodoComponent,
     TestComponent,
+    YouTubeSearchComponent,
+    SearchBox,
+    SearchResultComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +46,7 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
   providers: [
     ReadmeService,
     TodoService,
-  ],
+    youTubeServiceInjectables,
+  ]
 })
 export class AppModule { }
