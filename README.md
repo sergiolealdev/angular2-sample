@@ -1,1 +1,1 @@
-"# angular2-smaple" 
+"# angular2-sample" 

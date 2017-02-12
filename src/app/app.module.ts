@@ -11,6 +11,7 @@ import { AlertDialogComponent } from './dialog/alert-dialog.component';
 import { InputDialogComponent } from './dialog/input-dialog.component';
 import { ReadmeComponent } from './readme/readme.component';
 import { TodoComponent } from './todo/todo.component';
+import { TestComponent } from './test/test.component';
 
 import { ReadmeService } from './readme/readme.service';
 import { TodoService } from './todo/todo.service';
@@ -26,6 +27,7 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
     ReadmeComponent,
     InputDialogComponent,
     TodoComponent,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
