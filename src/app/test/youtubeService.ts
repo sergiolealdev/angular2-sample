@@ -1,7 +1,3 @@
-/**
- * YouTubeSearchComponent is a tiny app that will autocomplete search YouTube.
- */
-
 import {
   Component,
   Injectable,
